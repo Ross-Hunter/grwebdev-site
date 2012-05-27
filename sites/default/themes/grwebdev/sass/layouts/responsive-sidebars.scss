@@ -171,7 +171,7 @@ $zen-auto-include-item-base: false;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   #header{
     #logo{
       width: 99%;
@@ -194,7 +194,7 @@ $zen-auto-include-item-base: false;
   }
 }
 
-@media all and (min-width: 767px) {
+@media all and (min-width: 768px) {
   #header{
     padding-top: 1em;
     #logo{
