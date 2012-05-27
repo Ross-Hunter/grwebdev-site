@@ -3,16 +3,27 @@ body {
   background: url(../images/white_wall.png);
 }
 
-/* line 14, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
+#header .region-header .views-field-field-slide-image img, #header .region-header #views_slideshow_cycle_teaser_section_slides-block_1, #header .region-header .views_slideshow_slide {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* line 23, ../sass/style.scss */
+#main #content, #main .sidebars {
+  margin-top: 2em;
+}
+
+/* line 28, ../sass/style.scss */
 #navigation #main-menu {
   width: 100%;
-  height: 34px;
+  height: auto;
   background: url(../images/little_pluses.png);
   margin-top: 10px;
   margin-bottom: 20px;
   padding-top: 14px;
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -22,20 +33,18 @@ body {
   -moz-box-shadow: 0px 1px 2px #cccccc;
   box-shadow: 0px 1px 2px #cccccc;
 }
-/* line 27, ../sass/style.scss */
-#navigation #main-menu ul li {
+/* line 41, ../sass/style.scss */
+#navigation #main-menu ul.links li {
   display: inline;
-  padding-left: 10px;
   border-right: 1px solid;
 }
-/* line 32, ../sass/style.scss */
-#navigation #main-menu ul li.last {
+/* line 44, ../sass/style.scss */
+#navigation #main-menu ul.links li.last {
   border-right: 0;
 }
-/* line 36, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 #navigation #main-menu li a {
   text-decoration: none;
-  padding: 5px 15px;
   color: #000;
   text-shadow: 1px 1px 1px white;
   -webkit-border-radius: 5px;
@@ -54,7 +63,7 @@ body {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 44, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 #navigation #main-menu li a:hover {
   color: #c2200b;
   background: #fff;

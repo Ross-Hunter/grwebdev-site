@@ -9,25 +9,37 @@ body{
 }
 
 #header{
+  #logo{
+  }
+  .region-header{
+    .views-field-field-slide-image img, #views_slideshow_cycle_teaser_section_slides-block_1, .views_slideshow_slide{
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+}
+
+#main{
+  #content, .sidebars{
+    margin-top: 2em;
+  }
 }
 
 #navigation #main-menu {
   width: 100%;
-  height: 34px;
+  height: auto;
   background: url(../images/little_pluses.png);
   //background-color: #48A9E4;
   //@include background-image(linear-gradient(#48A9E4, #0779BF));
   margin-top: 10px;
   margin-bottom: 20px;
   padding-top: 14px;
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
   @include border-radius(5px);
   @include box-shadow(0px 1px 2px #ccc);
-  ul li {
-    //color: $gr-red;
+  ul.links li {
     display: inline;
-    padding-left: 10px;
     border-right: 1px solid;
     &.last{
       border-right: 0;
@@ -35,7 +47,7 @@ body{
   }
   li a {
     text-decoration: none;
-    padding: 5px 15px;
+    //padding: 5% 15px;
     //color: $gr-red;
     color: #000;
     @include single-text-shadow(1px, 1px, 1px, #fff);
