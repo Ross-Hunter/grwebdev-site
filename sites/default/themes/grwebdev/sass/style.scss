@@ -8,6 +8,39 @@ body{
   //background: #fff;
 }
 
+a{
+  color: $gr-red;
+  text-shadow: 1px 1px 1px #ccc;
+  text-decoration: none;
+}
+
+p.submitted{
+  margin: 0 0 0 .5em;
+}
+.view-blogs{
+  ul.links{
+    float: right;
+    margin: 0;
+  }
+  .node-story{
+    //margin-bottom: 1.5em;
+    .field-items{
+      padding: 0 .5em;
+    }
+  }
+}
+
+#edit-title{
+  width: 90%;
+}
+
+.view-job-listing{
+  .views-row{
+    font-size: 1.2em;
+    padding-top: .75em;
+  }
+}
+
 #header{
   #logo{
   }
@@ -55,8 +88,9 @@ body{
     @include single-transition(all .3s ease-in-out);
     &:hover {
       color: $gr-red;
+      text-shadow: 2px 2px 2px #ccc;
       background: #fff;
-      opacity: .5;
+      opacity: .75;
     }
   }
 }
