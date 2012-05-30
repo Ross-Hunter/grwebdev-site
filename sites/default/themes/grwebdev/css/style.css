@@ -4,50 +4,55 @@ body {
 }
 
 /* line 11, ../sass/style.scss */
+h1.title, h2.node-title, h2.block-title, h2.title, h2.comment-form, h3.title {
+  text-shadow: 1px 1px 1px white;
+}
+
+/* line 15, ../sass/style.scss */
 a {
   color: #c2200b;
   text-shadow: 1px 1px 1px #cccccc;
   text-decoration: none;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 p.submitted {
   margin: 0 0 0 .5em;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .view-blogs ul.links {
   float: right;
   margin: 0;
 }
-/* line 27, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .view-blogs .node-story .field-items {
   padding: 0 .5em;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 #edit-title {
   width: 90%;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .view-job-listing .views-row {
   font-size: 1.2em;
   padding-top: .75em;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 #header .region-header .views-field-field-slide-image img, #header .region-header #views_slideshow_cycle_teaser_section_slides-block_1, #header .region-header .views_slideshow_slide {
   width: 100% !important;
   height: auto !important;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 #main #content, #main .sidebars {
   margin-top: 2em;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 #navigation #main-menu {
   width: 100%;
   height: auto;
@@ -66,16 +71,16 @@ p.submitted {
   -moz-box-shadow: 0px 2px 2px #cccccc;
   box-shadow: 0px 2px 2px #cccccc;
 }
-/* line 72, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 #navigation #main-menu ul.links li {
   display: inline;
   border-right: 1px solid;
 }
-/* line 75, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 #navigation #main-menu ul.links li.last {
   border-right: 0;
 }
-/* line 79, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 #navigation #main-menu li a {
   text-decoration: none;
   color: #000;
@@ -96,7 +101,7 @@ p.submitted {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 85, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 #navigation #main-menu li a:hover {
   color: #c2200b;
   text-shadow: 2px 2px 2px #cccccc;
@@ -104,12 +109,12 @@ p.submitted {
   opacity: .75;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .mug-badge h3 a {
   color: mintcream !important;
   text-shadow: 1px 1px 1px black;
 }
-/* line 99, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .mug-badge .mup-widget .mup-bd {
   background-color: #c2200b !important;
   border: 1px solid #000 !important;

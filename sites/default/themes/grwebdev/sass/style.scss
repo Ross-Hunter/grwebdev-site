@@ -8,6 +8,10 @@ body{
 
 }
 
+h1.title, h2.node-title, h2.block-title, h2.title, h2.comment-form, h3.title{
+  @include single-text-shadow(1px, 1px, 1px, #fff)
+}
+
 a{
   color: $gr-red;
   @include single-text-shadow(1px, 1px, 1px, #ccc);
