@@ -129,6 +129,7 @@ $zen-auto-include-item-base: false;
   }
   input[type="text"]{
     width: 90%;
+    @include box-sizing(border-box);
   }
 }
 

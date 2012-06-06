@@ -15,7 +15,7 @@
 /*
  * Center the page.
  */
-/* line 44, ../../sass/layouts/responsive-sidebars.scss */
+/* line 44, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
 #page,
 .region-bottom {
   /* For screen sizes larger than 1200px, prevent excessively long lines of text
@@ -28,7 +28,7 @@
 /*
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
-/* line 62, ../../sass/layouts/responsive-sidebars.scss */
+/* line 62, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
 #header,
 #content,
 #navigation,
@@ -47,7 +47,7 @@
 /*
  * Containers for grid items and flow items.
  */
-/* line 52, ../../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 52, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #header:before, #header:after,
 #main:before,
 #main:after,
@@ -56,7 +56,7 @@
   content: "";
   display: table;
 }
-/* line 56, ../../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 56, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #header:after,
 #main:after,
 #footer:after {
@@ -67,14 +67,14 @@
  * Navigation bar
  */
 @media all and (min-width: 480px) {
-  /* line 81, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 81, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #main {
     padding-top: 4em;
     /* Move all the children of #main down to make room. */
     position: relative;
   }
 
-  /* line 85, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 85, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation {
     position: absolute;
     top: 0;
@@ -84,46 +84,54 @@
   }
 }
 @media all and (min-width: 1200px) {
-  /* line 95, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 95, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu {
     padding-bottom: 14px;
   }
-  /* line 97, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 97, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu ul.links li {
     padding: 0 24px;
   }
-  /* line 99, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 99, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu ul.links li a {
     padding: 4px 16px;
   }
 }
 @media all and (min-width: 960px) and (max-width: 1199px) {
-  /* line 107, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 107, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu {
     padding-bottom: 14px;
   }
-  /* line 109, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 109, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu ul.links li {
     padding: 0 14px;
   }
-  /* line 112, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 112, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu ul.links li a {
     padding: 0 8px;
   }
 }
 @media all and (max-width: 959px) {
-  /* line 120, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 120, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu {
     margin-bottom: 4px;
   }
-  /* line 122, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 122, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu ul.links li {
     margin: 0 0 10px 0;
     padding: 0px 5px;
   }
-  /* line 125, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 125, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu ul.links li a {
     padding: 0 4px;
+  }
+
+  /* line 130, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
+  input[type="text"] {
+    width: 90%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
 }
 @media all and (min-width: 480px) and (max-width: 959px) {
@@ -133,7 +141,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 143, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 147, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 2 columns, starting in 1st column from left. */
     float: right;
@@ -141,7 +149,7 @@
     margin-right: 0%;
     margin-left: -66.667%;
   }
-  /* line 147, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 151, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 3rd column from left. */
     float: right;
@@ -157,7 +165,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 164, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 168, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: right;
@@ -165,7 +173,7 @@
     margin-right: 0%;
     margin-left: -80%;
   }
-  /* line 168, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 172, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;
@@ -175,48 +183,43 @@
   }
 }
 @media all and (max-width: 767px) {
-  /* line 176, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 180, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #header #logo {
     width: 99%;
     margin: 0 auto;
     text-align: right;
     padding: 0.5em 0;
   }
-  /* line 181, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 185, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #header #logo img {
     width: 99%;
     text-align: right;
   }
-  /* line 186, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 190, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #header .region-header {
     width: 97%;
     margin: 0 auto;
     float: center;
   }
 
-  /* line 192, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 196, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #main {
     margin-top: 60%;
   }
-
-  /* line 195, ../../sass/layouts/responsive-sidebars.scss */
-  input[type="text"] {
-    width: 90%;
-  }
 }
 @media all and (min-width: 768px) {
-  /* line 201, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 202, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #header {
     padding-top: 1em;
   }
-  /* line 203, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 204, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #header #logo {
     padding: 2.5em 0;
     width: 47%;
     float: left;
     clear: left;
   }
-  /* line 209, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 210, /Users/vox/GreyVox/grwebdev/sites/default/themes/grwebdev/sass/layouts/responsive-sidebars.scss */
   #header .region-header {
     width: 47%;
     float: right;
