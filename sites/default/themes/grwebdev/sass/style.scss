@@ -53,6 +53,9 @@ p.submitted{
       width: 100% !important;
       height: auto !important;
     }
+    .views_slideshow_slide img{
+      @include box-shadow(0px 2px 2px #ccc);
+    }
   }
 }
 

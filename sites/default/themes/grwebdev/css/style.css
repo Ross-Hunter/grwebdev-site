@@ -46,13 +46,19 @@ p.submitted {
   width: 100% !important;
   height: auto !important;
 }
+/* line 56, ../sass/style.scss */
+#header .region-header .views_slideshow_slide img {
+  -webkit-box-shadow: 0px 2px 2px #cccccc;
+  -moz-box-shadow: 0px 2px 2px #cccccc;
+  box-shadow: 0px 2px 2px #cccccc;
+}
 
-/* line 60, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 #main #content, #main .sidebars {
   margin-top: 2em;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 #navigation #main-menu {
   width: 100%;
   height: auto;
@@ -71,16 +77,16 @@ p.submitted {
   -moz-box-shadow: 0px 2px 2px #cccccc;
   box-shadow: 0px 2px 2px #cccccc;
 }
-/* line 76, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 #navigation #main-menu ul.links li {
   display: inline;
   border-right: 1px solid;
 }
-/* line 79, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 #navigation #main-menu ul.links li.last {
   border-right: 0;
 }
-/* line 83, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 #navigation #main-menu li a {
   text-decoration: none;
   color: #000;
@@ -101,7 +107,7 @@ p.submitted {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 89, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 #navigation #main-menu li a:hover {
   color: #c2200b;
   text-shadow: 2px 2px 2px #cccccc;
@@ -109,12 +115,12 @@ p.submitted {
   opacity: .75;
 }
 
-/* line 99, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .mug-badge h3 a {
   color: mintcream !important;
   text-shadow: 1px 1px 1px black;
 }
-/* line 103, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .mug-badge .mup-widget .mup-bd {
   background-color: #c2200b !important;
   border: 1px solid #000 !important;
