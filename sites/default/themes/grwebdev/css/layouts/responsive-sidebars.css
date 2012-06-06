@@ -194,20 +194,25 @@
   #main {
     margin-top: 60%;
   }
+
+  /* line 195, ../../sass/layouts/responsive-sidebars.scss */
+  input[type="text"] {
+    width: 90%;
+  }
 }
 @media all and (min-width: 768px) {
-  /* line 198, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 201, ../../sass/layouts/responsive-sidebars.scss */
   #header {
     padding-top: 1em;
   }
-  /* line 200, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 203, ../../sass/layouts/responsive-sidebars.scss */
   #header #logo {
     padding: 2.5em 0;
     width: 47%;
     float: left;
     clear: left;
   }
-  /* line 206, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 209, ../../sass/layouts/responsive-sidebars.scss */
   #header .region-header {
     width: 47%;
     float: right;

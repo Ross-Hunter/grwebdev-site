@@ -192,6 +192,9 @@ $zen-auto-include-item-base: false;
   #main{
     margin-top: 60%;
   }
+  input[type="text"]{
+    width: 90%;
+  }
 }
 
 @media all and (min-width: 768px) {
